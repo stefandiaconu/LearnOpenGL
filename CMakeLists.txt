@@ -41,7 +41,7 @@ set(CHAPTERS
 
 set(1_getting_started
         1_1_hello_window
-        1_3_hello_triangle
+        2_1_hello_triangle
 )
 
 add_library(GLAD "src/glad.c")
