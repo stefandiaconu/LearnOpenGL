@@ -43,6 +43,7 @@ set(1_getting_started
         1_1_hello_window
         2_1_hello_triangle
         2_2_hello_triangle_indexed
+        2_3_hello_triangle_exercise_1
 )
 
 add_library(GLAD "src/glad.c")
