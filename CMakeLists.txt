@@ -46,6 +46,7 @@ set(1_getting_started
         2_3_hello_triangle_exercise_1
         2_4_hello_triangle_exercise_2
         2_5_hello_triangle_exercise_3
+        3_1_shaders_uniform
 )
 
 add_library(GLAD "src/glad.c")
