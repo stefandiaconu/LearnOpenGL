@@ -51,6 +51,7 @@ set(1_getting_started
         3_3_shaders_class
         3_4_shaders_exercise1
         3_5_shaders_exercise2
+        3_6_shaders_exercise3
 )
 
 add_library(GLAD "src/glad.c")
