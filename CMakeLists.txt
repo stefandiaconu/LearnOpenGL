@@ -52,7 +52,12 @@ set(1_getting_started
         3_4_shaders_exercise1
         3_5_shaders_exercise2
         3_6_shaders_exercise3
+        4_1_textures
 )
+
+# first create relevant static libraries required for other projects
+add_library(STB_IMAGE "src/stb_image.cpp")
+set(LIBS ${LIBS} STB_IMAGE)
 
 add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
