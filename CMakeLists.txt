@@ -54,6 +54,7 @@ set(1_getting_started
         3_6_shaders_exercise3
         4_1_textures
         4_2_textures_combined
+        5_1_transformations
 )
 
 # first create relevant static libraries required for other projects
