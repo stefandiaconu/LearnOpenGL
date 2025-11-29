@@ -55,6 +55,7 @@ set(1_getting_started
         4_1_textures
         4_2_textures_combined
         5_1_transformations
+        5_2_transformations_exercise2
 )
 
 # first create relevant static libraries required for other projects
