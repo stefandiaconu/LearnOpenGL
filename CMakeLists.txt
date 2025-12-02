@@ -59,6 +59,7 @@ set(1_getting_started
         6_1_coordinate_systems
         6_2_coordinate_systems_depth
         6_3_coordinate_systems_multiple
+        6_4_coordinate_systems_exercise3
 )
 
 # first create relevant static libraries required for other projects
