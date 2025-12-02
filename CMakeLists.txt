@@ -56,6 +56,7 @@ set(1_getting_started
         4_2_textures_combined
         5_1_transformations
         5_2_transformations_exercise2
+        6_1_coordinate_systems
 )
 
 # first create relevant static libraries required for other projects
