@@ -57,6 +57,7 @@ set(1_getting_started
         5_1_transformations
         5_2_transformations_exercise2
         6_1_coordinate_systems
+        6_2_coordinate_systems_depth
 )
 
 # first create relevant static libraries required for other projects
