@@ -61,6 +61,7 @@ set(1_getting_started
         6_3_coordinate_systems_multiple
         6_4_coordinate_systems_exercise3
         7_1_camera_circle
+        7_2_camera_keyboard_dt
 )
 
 # first create relevant static libraries required for other projects
