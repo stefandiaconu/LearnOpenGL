@@ -62,6 +62,7 @@ set(1_getting_started
         6_4_coordinate_systems_exercise3
         7_1_camera_circle
         7_2_camera_keyboard_dt
+        7_3_camera_mouse_zoom
 )
 
 # first create relevant static libraries required for other projects
