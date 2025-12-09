@@ -63,6 +63,7 @@ set(1_getting_started
         7_1_camera_circle
         7_2_camera_keyboard_dt
         7_3_camera_mouse_zoom
+        7_4_camera_class
 )
 
 # first create relevant static libraries required for other projects
