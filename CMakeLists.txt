@@ -37,6 +37,7 @@ endif(WIN32)
 
 set(CHAPTERS
         1_getting_started
+        2_lighting
 )
 
 set(1_getting_started
@@ -64,6 +65,10 @@ set(1_getting_started
         7_2_camera_keyboard_dt
         7_3_camera_mouse_zoom
         7_4_camera_class
+)
+
+set(2_lighting
+        1_colors
 )
 
 # first create relevant static libraries required for other projects
