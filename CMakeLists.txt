@@ -69,6 +69,7 @@ set(1_getting_started
 
 set(2_lighting
         1_colors
+        2_1_basic_lighting_diffuse
 )
 
 # first create relevant static libraries required for other projects
