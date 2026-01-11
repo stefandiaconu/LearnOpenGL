@@ -73,6 +73,7 @@ set(2_lighting
         2_2_basic_lighting_specular
         3_1_materials
         4_1_lighting_maps_diffuse_map
+        4_2_lighting_maps_specular_map
 )
 
 # first create relevant static libraries required for other projects
