@@ -71,6 +71,7 @@ set(2_lighting
         1_colors
         2_1_basic_lighting_diffuse
         2_2_basic_lighting_specular
+        3_1_materials
 )
 
 # first create relevant static libraries required for other projects
