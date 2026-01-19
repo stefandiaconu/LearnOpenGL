@@ -76,6 +76,7 @@ set(2_lighting
         4_2_lighting_maps_specular_map
         5_1_light_casters_directional
         5_2_light_casters_point
+        5_3_light_casters_spot
 )
 
 # first create relevant static libraries required for other projects
