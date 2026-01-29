@@ -75,8 +75,8 @@ int main()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("5.4.light_casters.vs", "5.4.light_casters.fs");
-    Shader lightCubeShader("5.4.light_cube.vs", "5.4.light_cube.fs");
+    Shader lightingShader("5_4_light_casters.vs", "5_4_light_casters.fs");
+    Shader lightCubeShader("5_4_light_cube.vs", "5_4_light_cube.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
