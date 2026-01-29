@@ -78,6 +78,7 @@ set(2_lighting
         5_2_light_casters_point
         5_3_light_casters_spot
         5_4_light_casters_spot_soft
+        6_multiple_lights
 )
 
 # first create relevant static libraries required for other projects
