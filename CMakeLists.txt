@@ -6,8 +6,14 @@ project(LearnOpenGL)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+
+find_package(GLM REQUIRED)
+message(STATUS "GLM included at ${GLM_INCLUDE_DIR}")
 find_package(GLFW3 REQUIRED)
 message(STATUS "Found GLFW3 in ${GLFW3_INCLUDE_DIR}")
+find_package(ASSIMP REQUIRED)
+message(STATUS "Found ASSIMP in ${ASSIMP_INCLUDE_DIR}")
 
 if(WIN32)
     set(LIBS glfw3 opengl32 assimp freetype irrKlang)
@@ -38,6 +44,7 @@ endif(WIN32)
 set(CHAPTERS
         1_getting_started
         2_lighting
+        3_model_loading
 )
 
 set(1_getting_started
@@ -79,6 +86,10 @@ set(2_lighting
         5_3_light_casters_spot
         5_4_light_casters_spot_soft
         6_multiple_lights
+)
+
+set(3_model_loading
+        1_model_loading
 )
 
 # first create relevant static libraries required for other projects
@@ -158,4 +169,4 @@ foreach(CHAPTER ${CHAPTERS})
     endforeach(DEMO)
 endforeach(CHAPTER)
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/includes)
