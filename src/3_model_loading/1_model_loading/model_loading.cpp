@@ -1,6 +1,7 @@
 //
-// Created by Stefan Diaconu on 11/03/2026.
+// Created by Stefan Diaconu on 01/09/2026.
 //
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -8,7 +9,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-// #include <learnopengl/filesystem.h>
 #include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>

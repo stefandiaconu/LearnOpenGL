@@ -1,3 +1,7 @@
+//
+// Created by Stefan Diaconu on 07/09/2026.
+//
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <stb_image.h>
