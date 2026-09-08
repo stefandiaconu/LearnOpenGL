@@ -96,6 +96,7 @@ set(3_model_loading
 set(4_advanced_opengl
         1_1_depth_testing
         1_2_depth_testing_view
+        2_stencil_testing
 )
 
 # first create relevant static libraries required for other projects
